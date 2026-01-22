@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int i, p, count = 0;
+    for(i = 1; i <= 5; i++) {
+        scanf("%d", &p);
+        if(p == 1) count++;
+    }
+    printf("Present = %d", count);
+    return 0;
+}
