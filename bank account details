@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct bank {
+    int acc;
+    float bal;
+};
+
+int main() {
+    struct bank b = {12345, 5000};
+    printf("Account=%d Balance=%.0f", b.acc, b.bal);
+    return 0;
+}
