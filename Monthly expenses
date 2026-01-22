@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int e[5], i, total = 0;
+    for(i=0;i<5;i++) {
+        scanf("%d",&e[i]);
+        total += e[i];
+    }
+    printf("Total expenses = %d", total);
+    return 0;
+}
