@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int salary;
+    printf("Enter salary: ");
+    scanf("%d", &salary);
+
+    printf("Salary Slip\nSalary = %d", salary);
+    return 0;
+}
