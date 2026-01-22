@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct mobile {
+    char model[20];
+    int price;
+};
+
+int main() {
+    struct mobile m = {"Samsung",15000};
+    printf("%s %d", m.model, m.price);
+    return 0;
+}
