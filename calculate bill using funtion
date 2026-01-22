@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int bill(int u) {
+    return u * 5;
+}
+
+int main() {
+    int units;
+    printf("Enter units: ");
+    scanf("%d", &units);
+
+    printf("Bill amount = %d", bill(units));
+    return 0;
+}
