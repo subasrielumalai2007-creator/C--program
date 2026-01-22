@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char m[15];
+    printf("Enter mobile number: ");
+    scanf("%s", m);
+
+    if (strlen(m) == 10)
+        printf("Valid mobile number");
+    else
+        printf("Invalid mobile number");
+
+    return 0;
+}
