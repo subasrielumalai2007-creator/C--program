@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct course {
+    char name[20];
+    int code;
+};
+
+int main() {
+    struct course c = {"CSE",101};
+    printf("%s %d", c.name, c.code);
+    return 0;
+}
