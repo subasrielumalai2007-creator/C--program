@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float r[7], sum = 0;
+    int i;
+    for(i = 0; i < 7; i++) {
+        scanf("%f", &r[i]);
+        sum += r[i];
+    }
+    printf("Average = %.2f", sum/7);
+    return 0;
+}
