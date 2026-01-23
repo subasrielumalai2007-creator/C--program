@@ -1,0 +1,9 @@
+#include <stdio.h>
+struct emp { int id; };
+int main() {
+    struct emp e[5];
+    int n;
+    scanf("%d",&n);
+    printf("Number of records = %d", n);
+    return 0;
+}
