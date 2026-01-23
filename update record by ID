@@ -1,0 +1,16 @@
+#include <stdio.h>
+struct item {
+    int id;
+    int qty;
+};
+int main() {
+    struct item i[2]={{1,10},{2,20}};
+    int id;
+    scanf("%d",&id);
+
+    if(i[0].id==id)
+        i[0].qty=50;
+
+    printf("Updated Qty = %d",i[0].qty);
+    return 0;
+}
