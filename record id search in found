@@ -1,0 +1,11 @@
+#include <stdio.h>
+struct data { int id; };
+int main() {
+    struct data d[3]={{1},{2},{3}};
+    int sid,i;
+    scanf("%d",&sid);
+    for(i=0;i<3;i++)
+        if(d[i].id==sid)
+            printf("Record Found");
+    return 0;
+}
